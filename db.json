@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "Akshay Ghuikar",
+      "mobileNo": "8551073372",
+      "email": "akshayghuikar28@gmail.com",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "fararri",
+      "category": "car",
+      "price": "25000000",
+      "stock": "4"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

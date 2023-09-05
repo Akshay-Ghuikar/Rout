@@ -1,0 +1,20 @@
+<p>post-list works!</p>
+<button class="btn btn-primary" routerLink="/post/createPost">create post</button>
+
+<table class="table table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">userId</th>
+        <th scope="col">title</th>
+        <th scope="col">body</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let items of postList">
+        <th scope="row">{{items.userId}}</th>
+        <td>{{items.title}}</td>
+        <td>{{items.body}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
